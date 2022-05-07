@@ -1,0 +1,17 @@
+.app {
+  //text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left-nav {
+  width: 30%;
+}
+
+.mainbody {
+  width: 70%;
+  padding: 10px 30px 10px 20px
+}
+
+
