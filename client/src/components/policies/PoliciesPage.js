@@ -7,28 +7,22 @@ import axios from "axios"
 export default class PoliciesPage extends Component {
 
     state = {
-        faqs: ""
+        
     }
 
     componentDidMount() {
         console.log("policies mounted")
-        axios.get("http://localhost:8080/policies")
-        .then(response => {
-            this.setState({
-                faqs: response.data
-            })
-        }).catch(err => {
-            console.log(err)
-        })
+    }
+
+    componentDidUpdate() {
+        console.log("policies updated")
     }
 
     render() {
-        console.log(this.state.faqs)
         return (
             <section className="policies">
                 <h1>Hybrid Work Policies</h1>
-                <FaqListComponent
-                    faqs={this.state.faqs} />
+                <FaqListComponent />
                 <TopArticlesComponent />
             </section>
         )
