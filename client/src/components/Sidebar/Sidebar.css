@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+}
+.container .sidebar {
+  background: grey;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.container .sidebar .top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.container .sidebar .top_section .logo {
+  font-size: 30px;
+}
+.container .sidebar .top_section .logo img {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link .arrow {
+  display: none;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+.active .arrow {
+  display: none;
+}
+
+.icon, .link_text {
+  font-size: 20px;
+}/*# sourceMappingURL=Sidebar.css.map */

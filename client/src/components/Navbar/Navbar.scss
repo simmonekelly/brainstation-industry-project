@@ -1,0 +1,13 @@
+.form{
+    margin: 12px 0;
+    form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    input{
+        width: 250px;
+        height: 40px;
+        background-color: lightgrey;
+    }
+}
+}

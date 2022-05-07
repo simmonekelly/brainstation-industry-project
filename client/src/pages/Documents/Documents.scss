@@ -1,0 +1,31 @@
+.data-container{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .mini-container{
+        padding: 50px;
+        background-color: grey;
+        margin: 16px;
+        color: #fff;
+    }
+    .mini-container:hover{
+        background-color: lightskyblue;
+        margin: 16px;
+        color: black;
+    }
+}
+
+@media (min-width:1280px) {
+    .data-container{
+        .mini-container{
+            padding: 100px;
+            margin: 72px;
+        }
+        .mini-container:hover{
+            padding: 100px;
+            margin: 72px;
+            color: black;
+        }
+    }
+}

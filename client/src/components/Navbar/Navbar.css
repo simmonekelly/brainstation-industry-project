@@ -1,0 +1,13 @@
+.form {
+  margin: 12px 0;
+}
+.form form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form form input {
+  width: 250px;
+  height: 40px;
+  background-color: lightgrey;
+}/*# sourceMappingURL=Navbar.css.map */
