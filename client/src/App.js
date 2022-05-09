@@ -1,6 +1,7 @@
 import "./App.scss";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import PoliciesPage from "./components/policies/PoliciesPage";
+import HybridWorkArrPage from "./components/documents/HybridWorkArrPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           </div>
           <Switch>
             <Route path="/policies" component={PoliciesPage} />
+            <Route path="/hybrid-work-arrangements" component={HybridWorkArrPage} />
           </Switch>
         </div>
       </div>
