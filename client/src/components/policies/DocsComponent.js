@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaAngleRight } from 'react-icons/fa';
+
 
 function DocsComponent(props) {
   const { documents } = props;
@@ -17,7 +19,7 @@ function DocsComponent(props) {
             {/* <p>{document.snippet}</p> */}
             <p>{document.date}</p>
             </div>
-            arrow
+            <FaAngleRight /> 
           </div>
         </Link>
       ))}
