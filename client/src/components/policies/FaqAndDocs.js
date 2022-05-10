@@ -11,14 +11,12 @@ export default class FaqAndDocs extends Component {
   };
 
   componentDidMount() {
-    console.log("policies mounted");
     const category = this.props.match.params.category
     const topic = this.props.match.params.topic
 
     axios
       .get(`http://localhost:8080/resources/${category}/${topic}`)
       .then((response) => {
-        console.log(response)
         this.setState({
           faqs: response.data.policyFaqs,
           documents: response.data.policyDocuments,
@@ -30,7 +28,6 @@ export default class FaqAndDocs extends Component {
   }
 
   componentDidUpdate() {
-    console.log("policies updated");
   }
 
   render() {

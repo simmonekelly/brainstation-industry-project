@@ -29,7 +29,6 @@ export default class PoliciesListPage extends Component {
     
       render() {
           const {policies, category} = this.state;
-          console.log(policies)
           
         return (!policies ? null :
             <section className="policies">
