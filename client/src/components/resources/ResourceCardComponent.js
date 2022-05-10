@@ -9,7 +9,7 @@ function ResourceCardComponent(props) {
   return (
     <Link to={`/resources/${resource.category}`}>
       <div className="resources-container">
-        <img src={`${baseUrl}/images/icons/Legal_Icon_Screen2.svg`} />
+        <img src={resource.icon} />
         <div className="resources-content">
           <h2>{resource.title}</h2>
           <p>{resource.description}</p>

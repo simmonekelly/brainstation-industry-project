@@ -3,10 +3,12 @@
     "title": "Return to Work Policy?",
     "category":"return-to-work-policy",
     "description": "This section consists of updated information related to hybrid, remote, work from office and covid 19 safety and precautions.",
+    "icon": "http://localhost:8080/images/icons/Return_to_Work_Icon_Screen2.svg",
     "policies": [
       {
         "policyTitle": "Hybrid Work Policy",
         "policyTopic": "hybrid-work-policy",
+        "policyIcon": "http://localhost:8080/images/icons/Return_to_work_Icon_Screen2.svg",
         "policyDescription": "We have compiled a list of all the resources needed for employees to continue working in a hybrid role in a safe and productive way. ",
         "policyFaqs": [
           {
@@ -74,6 +76,7 @@
       {
         "policyTitle": "Remote Work Policy",
         "policyTopic": "remote-work-policy",
+        "policyIcon": "http://localhost:8080/images/icons/Remotework_Icon_Screen3.svg",
         "policyDescription": "We have compiled a list of all the resources needed for employees to continue working in a remote role in a safe and productive way. ",
         "policyFaqs": [],
         "policy-documents": []
@@ -81,6 +84,7 @@
       {
         "policyTitle": "Work from Office Policy",
         "policyTopic": "work-from-offic-policy",
+        "policyIcon": "http://localhost:8080/images/icons/Office_Policy_Icon_Large.svg",
         "policyDescription": "We have compiled a list of all the resources needed for employees to continue working in an office setting in a safe and productive way. ",
         "policyFaqs": [],
         "policy-documents": []
@@ -91,6 +95,7 @@
     "title": "Employee Onboarding",
     "category": "employee-onboarding",
     "description": "We have compiled a list of all the necessary documents for new employees pertaining to onboarding in this section",
+    "icon": "http://localhost:8080/images/icons/EmployeeOnboarding_Icon_Screen2.svg",
     "policies": [
       {
         "policyTitle": "Test Policy",
@@ -104,6 +109,7 @@
     "title": "Legal",
     "category": "legal",
     "description": "Legal section consists of documents related to NDA’s, meeting minutes, employement agreements, business plans, etc",
+    "icon":"http://localhost:8080/images/icons/Legal_Icon_Screen2.svg",
     "policies":[
       {
         "policyTitle": "Test Policy",
@@ -117,6 +123,7 @@
     "title": "Tax documents",
     "category": "tax-documents",
     "description": "Some of the topics under this section include pay stub tax calculations, RRSP match, TFSA, insurance and so on.",
+    "icon": "http://localhost:8080/images/icons/Tax_documents_Icon_Screen2.svg",
     "policies":[
       {
         "policyTitle": "Test Policy",

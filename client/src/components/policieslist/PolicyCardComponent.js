@@ -9,7 +9,8 @@ function PolicyCardComponent(props) {
     return (
         <Link to={`/resources/${category}/${policy.policyTopic}`}>
             <div className="policies-container">
-                <img src={`${baseUrl}/images/icons/Legal_Icon_Screen2.svg`} />
+                {/* <img src={`${baseUrl}/images/icons/Legal_Icon_Screen2.svg`} /> */}
+                <img src={policy.policyIcon}/>
                 <div className="policies-content">
                     <h2>{policy.policyTitle}</h2>
                     <p>{policy.policyDescription}</p>
