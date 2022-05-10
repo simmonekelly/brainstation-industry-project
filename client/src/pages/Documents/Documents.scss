@@ -143,13 +143,20 @@
 }
 
 @media (min-width:1280px) {
+    p{
+        color: #474747;
+        padding-bottom: 0;
+    }
+    h4{
+        padding-bottom: 0;
+    }
     .data-container{
-       max-width: 1280px;
-        margin:  24px auto ;
+    //    max-width: 1280px;
+    //     margin:  24px auto ;
         justify-content: space-evenly;
         // margin: 24px;
         .mini-container{
-            width: 331px;
+            width: 300px;
             border-radius: 6px;
             padding: 16px;
             margin: 0;
@@ -159,7 +166,9 @@
                 }
             }
             .footer_container{
-
+                h4{
+                    font-size: 16px;
+                }
                 .footer_textbox{
                     border-radius: 6px;
                     display: flex;
@@ -169,8 +178,11 @@
                     .textbox_text{
                         
                         h4{
-                            margin: 0 0 16px;
-                            width: 80%;
+                            margin: 0 0 8px 0;
+                            
+                        }
+                        p{
+                            font-size: 12px;
                         }
                     }
                     img{
@@ -197,12 +209,14 @@
                     }
                 }
                 h4{
-                    margin: 24px 0 16px 0;
+                    margin: 24px 0 8px 0;
                    
                 }
             }
             .footer_containerthree{
-               
+               h4{
+                   font-size: 16px;
+               }
                 .footer_textbox{
                     border-radius: 6px;
                    display: flex;
@@ -212,7 +226,11 @@
                     background-color: white;
                     h4{
                         text-align: start;
-                        margin-top: 12px;
+                        
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 12px;
                     }
                     img{
                         width: 8.05px;
@@ -223,12 +241,14 @@
                         .views_container{
                             display: flex;
                             margin-right: 16px;
+                            align-items:baseline;
                             img{
                                 width: 13.33px
                             }
                         }
                         .comments_container{
                              display: flex;
+                             align-items:baseline;
                              img{
                                  width: 13.33px
                              }
@@ -237,14 +257,14 @@
                     }
                 }
                 h4{
-                    margin: 24px 0 16px 0;
+                    margin: 0 0 8px 0;
                    text-align: center;
                 }
             }
             .textbox_container{
                 margin-bottom: 48px;
                 h4{
-                    margin: 24px 0 16px 0;
+                   margin:0 ;
                     font-size: 16px ;
                     line-height: 24px;
                     color: #242424;
@@ -254,15 +274,11 @@
                 }
                 .textbox_minicontainer{
                     border-radius: 6px;
-                    margin: 16px 0 16px 0;
+                    margin: 8px 0 16px 0;
                     padding: 16px;
                     display: flex;
                     align-items: center;
-                    .textbox_text{
-                        h4{
-                            width: 80%;
-                        }
-                    }
+                    
                     .textbox_arrow{
                         img{
                             width: 8.05px;
@@ -273,19 +289,24 @@
                         font-size: 16px;
                         line-height: 24px;
                         color: #242424;
-                        margin: 0 0 16px 0;
+                        margin : 0 0 8px 0;;
+                    }
+                    p{
+                        font-size: 12px;
                     }
                    .view_comments{
                        display: flex;
                        .views_container{
                            display: flex;
                            margin-right: 16px;
+                           align-items:baseline;
                            img{
                                width: 13.33px
                            }
                        }
                        .comments_container{
                             display: flex;
+                            align-items:baseline;
                             img{
                                 width: 13.33px
                             }
@@ -297,7 +318,7 @@
                 }
                 .textbox_thirdcontainer{
                     border-radius: 6px;
-                    margin: 16px 0 16px 0;
+                    margin: 8px 0 16px 0;
                     padding: 16px;
                    background-color: white;
                   display: flex;
@@ -312,20 +333,26 @@
                         font-size: 16px;
                         line-height: 24px;
                         color: #242424;
-                        margin: 0 0 16px 0;
+                        margin: 0;
                         text-align: left;
+                        margin: 0 0 8px 0;
+                    }
+                    p{
+                        font-size: 12px;
                     }
                    .view_comments{
                        display: flex;
                        .views_container{
                            display: flex;
                            margin-right: 16px;
+                           align-items: baseline;
                            img{
                                width: 13.33px
                            }
                        }
                        .comments_container{
                             display: flex;
+                            align-items: baseline;
                             img{
                                 width: 13.33px
                             }
@@ -341,11 +368,7 @@
                     padding: 16px;
                     display: flex;
                     align-items: center;
-                    .textbox_text{
-                        h4{
-                            width: 80%;
-                        }
-                    }
+                    
                     .textbox_arrow{
                         img{
                             width: 8.05px;
@@ -353,7 +376,10 @@
                         }
                     }
                     h4{
-                        margin : 0 0 16px 0;
+                        margin : 0 0 8px 0;
+                    }
+                    p{
+                        font-size: 12px;
                     }
                     .view_comments{
                         display: flex;
@@ -375,18 +401,22 @@
                 }
             }
             .textbox_containertwo{
+               
                 h4{
-                    margin: 16px 0 16px 0;
+                    
+                        margin: 0;
+                    
                     color: #242424;
                 }
                 .events_textbox{
+                    margin-top: 8px;
                     .events_detail{
                         padding: 16px;
-                        margin: 0 0 16px 0;
+                        margin: 0 0 8px 0;
                         border-radius: 6px;
                         a{
                             h4{
-                                margin: 0 0 16px 0;
+                                margin: 0;
                             }
                             .event_Text{
                                 display: flex;
@@ -394,6 +424,7 @@
                                 justify-content: space-between;
                                 h4{
                                     width: 90%;
+                                    padding-bottom: 8px;
                                 }
                                 img{
                                     width: 8.05px;

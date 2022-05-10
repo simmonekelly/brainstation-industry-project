@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.resources {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.resources-container {
+  max-width: 513px;
+  min-width: 500px;
+  padding: 15px;
+  background-color: #F5F7F8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.resources-container img {
+  width: 64px;
+  height: 64px;
+  padding-right: 10px;
+}
+.resources-content {
+  max-width: 285px;
+}
+.resources a {
+  color: #242424;
+  text-decoration: none;
+  padding-bottom: 29px;
+}/*# sourceMappingURL=Resources.css.map */

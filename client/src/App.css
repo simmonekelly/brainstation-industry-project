@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.app {
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  font-family: "Inter", san-serif;
+}
+
+.left-nav {
+  width: 170px;
+}
+
+.mainbody {
+  padding: 10px 30px 10px 20px;
+}
+
+h1, p, h4, h3, h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 32px;
+  line-height: 24px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}/*# sourceMappingURL=App.css.map */
