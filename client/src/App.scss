@@ -1,9 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
 .app {
   //text-align: center;
   display: flex;
   flex-direction: row;
   height: 100vh;
   font-family: 'Inter', san-serif;
+}
+
+body{
+  margin: none;
 }
 
 .left-nav {
