@@ -5,8 +5,11 @@ const cors = require("cors");
 const fs = require("fs");
 const axios = require("axios");
 
+require('dotenv').config();
+
 app.use(cors());
 app.use(express.json());
+app.use(express.static('public'));
 
 app.use("/policies", policiesRoutes);
 

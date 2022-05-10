@@ -1,4 +1,4 @@
-import "./App.scss";
+import './App.scss';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import FaqAndDocs from "./components/policies/FaqAndDocs";
 import HybridWorkArrPage from "./components/documents/HybridWorkArrPage";

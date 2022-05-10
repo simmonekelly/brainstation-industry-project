@@ -1,38 +1,36 @@
 @use '../../styles/colors-fonts' as *;
 
-.resources{
+.resources {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &-container {
+    max-width: 513px;
+    min-width: 500px;
+    padding: 15px;
+    background-color: $light-blue;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
 
-    &-container{
-        max-width: 513px;
-        min-width: 475px;
-        height: 176px;
-        padding: 15px;
-        background-color: $light-blue;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        img {
-            width: 64px;
-            height: 64px;
-            padding-right: 10px;
-        }
-
+    img {
+      width: 64px;
+      height: 64px;
+      padding-right: 10px;
     }
+  }
 
-    &-content{
-        max-width: 272px;
-    }
-    
+  &-content {
+    max-width: 285px;
+  }
 
-    a{
-        color: $black;
-        text-decoration: none;
+  a {
+    color: $black;
+    text-decoration: none;
 
-        padding-bottom: 29px;
-    }
+    padding-bottom: 29px;
+  }
 }

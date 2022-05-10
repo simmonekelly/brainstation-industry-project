@@ -8,13 +8,14 @@
 
     &-container{
         max-width: 513px;
-        min-width: 475px;
-        height: 176px;
+        min-width: 500px;;
+        //height: 176px;
         padding: 15px;
         background-color: $light-blue;
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: space-evenly;
 
         img {
             width: 64px;
@@ -25,7 +26,7 @@
     }
 
     &-content{
-        max-width: 272px;
+        max-width: 285px;
     }
     
 

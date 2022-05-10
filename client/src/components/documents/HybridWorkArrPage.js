@@ -1,8 +1,9 @@
 import React from "react";
+import './HybridWorkArrPage.scss';
 
 function HybridWorkArrPage() {
   return (
-    <div>
+    <section className="policy-document">
       <h2>Hybrid Work Arrangement</h2>
       <p>
         Hybrid work arrangements may be used to allow staff members to fulfill
@@ -133,7 +134,7 @@ function HybridWorkArrPage() {
         Consultant. ADDITIONAL CONTACTS Equal Opportunity and Access Human
         Resources Equal Employment Opportunity
       </p>
-    </div>
+    </section>
   );
 }
 

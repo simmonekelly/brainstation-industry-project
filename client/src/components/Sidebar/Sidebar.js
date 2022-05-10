@@ -9,7 +9,7 @@ import {
 import { NavLink } from 'react-router-dom';
 import { Component } from 'react';
 import userlogo from '../../Assets/images/userlogo.png'
-import './Sidebar.css'
+import './Sidebar.scss'
 import homelogo from '../../Assets/images/Home_Icon.svg'
 import resorucesIcon from '../../Assets/images/Resources_Icon.svg'
 import eventsIcon from '../../Assets/images/Events_Icon.svg'
