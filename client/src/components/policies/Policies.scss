@@ -1,12 +1,7 @@
-.faq {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-bottom: black 1px solid;
-  padding: 10px 0;
-}
+@use '../../styles/colors-fonts' as *;
 
-.policies {
+.faq-and-docs {
+  height: 100vh;
 
   h1{
     padding-bottom: 40px;
@@ -17,11 +12,12 @@
     flex-direction: row;
   }
 
-  &-faqs {
+  &_faqs {
       padding-bottom: 30px;
-      width: 65%;
+      padding-right: 24px;
+      width: 75%;
 
-    &_faq {
+    &-faq {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -36,14 +32,18 @@
         padding-bottom: 0;
       }
 
+      &_question{
+        font-weight: 700;
+      }
+
       &-answer{
           padding-top: 16px;
       }
     }
   }
 
-  &-toparticles {
-    width: 35%;
+  &_docs {
+    width: 25%;
 
     a {
         text-decoration: none;
@@ -51,14 +51,17 @@
         padding: 16px;
       }
 
-    &_article {
-      background-color: grey;
+    &-doc {
+      background-color: $light-blue;
       padding: 16px;
 
       display: flex;
       flex-direction: row;
       align-items: center;
 
+      &_title {
+        @extend .faq-and-docs_faqs-faq_question;
+      }
       
     }
   }

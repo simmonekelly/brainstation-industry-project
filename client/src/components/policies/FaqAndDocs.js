@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import FaqListComponent from "./FaqListComponent";
-import TopArticlesComponent from "./TopArticlesComponent";
+import DocsComponent from "./DocsComponent";
 import "./Policies.scss";
 import axios from "axios";
 
-export default class PoliciesPage extends Component {
+export default class FaqAndDocs extends Component {
   state = {
     faqs: "",
     documents: "",
@@ -12,13 +12,16 @@ export default class PoliciesPage extends Component {
 
   componentDidMount() {
     console.log("policies mounted");
+    const category = this.props.match.params.category
+    const topic = this.props.match.params.topic
 
     axios
-      .get("http://localhost:8080/policies")
+      .get(`http://localhost:8080/resources/${category}/${topic}`)
       .then((response) => {
+        console.log(response)
         this.setState({
-          faqs: response.data.faqs,
-          documents: response.data.articles,
+          faqs: response.data.policyFaqs,
+          documents: response.data.policyDocuments,
         });
       })
       .catch((err) => {
@@ -32,11 +35,11 @@ export default class PoliciesPage extends Component {
 
   render() {
     return (
-      <section className="policies">
+      <section className="faq-and-docs">
         <h1>Hybrid Work Policy</h1>
-        <div className="policies-container">
+        <div className="faq-and-docs-container">
           <FaqListComponent faqs={this.state.faqs} />
-          <TopArticlesComponent documents={this.state.documents} />
+          <DocsComponent documents={this.state.documents} />
         </div>
       </section>
     );

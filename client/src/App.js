@@ -1,7 +1,9 @@
 import "./App.scss";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import PoliciesPage from "./components/policies/PoliciesPage";
+import FaqAndDocs from "./components/policies/FaqAndDocs";
 import HybridWorkArrPage from "./components/documents/HybridWorkArrPage";
+import ResourcesPage from "./components/resources/ResourcesPage";
+import PoliciesListPage from "./components/policieslist/PoliciesListPage";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
             <h2>Header</h2>
           </div>
           <Switch>
-            <Route path="/policies" component={PoliciesPage} />
+            <Route path="/resources" exact component={ResourcesPage} />
+            <Route path="/resources/:category" exact component={PoliciesListPage} />
+            <Route path="/resources/:category/:topic" component={FaqAndDocs} />
             <Route path="/hybrid-work-arrangements" component={HybridWorkArrPage} />
           </Switch>
         </div>

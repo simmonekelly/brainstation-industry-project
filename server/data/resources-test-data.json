@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Return to Work Policy?",
+    "category":"return-to-work-policy",
+    "description": "This section consists of updated information related to hybrid, remote, work from office and covid 19 safety and precautions.",
+    "policies": [
+      {
+        "policyTitle": "Hybrid Work Policy",
+        "policyTopic": "hybrid-work-policy",
+        "policyDescription": "We have compiled a list of all the resources needed for employees to continue working in a hybrid role in a safe and productive way. ",
+        "policyFaqs": [
+          {
+            "question": "Do work from office schedules follow adequate social distancing within CDC guideline requirements?",
+            "answer": "All employees are instructed to maintain at least six feet distance from each other and any third parties. Employees who need to sneeze or cough should use a cloth or tissue. Do not shake hands or engage in any unnecessary physical contact with any otherindividuals at the work site."
+          },
+          {
+            "question": "Can I able to book an in office work station?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          },
+          {
+            "question": "What steps have been taken to help ensure the safety of the staff?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          },
+          {
+            "question": "How will staff members’ performance be evaluated while remote working?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          },
+          {
+            "question": "What is the vaccination policy?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          },
+          {
+            "question": "Are part time employees eligible for hybrid work arrangements?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          },
+          {
+            "question": "Are certain positions ineligible for inclusion within hybrid work arrangements?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          },
+          {
+            "question": "Are work station shifts going to have adequate social distancing within CDC guideline requirements?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          },
+          {
+            "question": "Can I able to book an in office work station?",
+            "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+          }
+        ],
+        "policyDocuments": [
+          {
+            "title": "Hybrid work arrangement at  company ",
+            "snippet": "The significant interest in more flexible forms of working, and hybrid working in particular, have created new employee expectations and desires.",
+            "date": "date",
+            "page": "copy"
+          },
+          {
+            "title": "Hybrid working is based on effective communication. ",
+            "snippet": "bleh",
+            "date": "date",
+            "page": {
+              "p1": "paragarph 1",
+              "p2": "paragrpah 2",
+              "p3": "paragraph 3"
+            }
+          },
+          {
+            "title": "Health and wellness benifits for hybrid workers ",
+            "snippet": "bleh",
+            "date": "date",
+            "page": "copy"
+          }
+        ]
+      },
+      {
+        "policyTitle": "Remote Work Policy",
+        "policyTopic": "remote-work-policy",
+        "policyDescription": "We have compiled a list of all the resources needed for employees to continue working in a remote role in a safe and productive way. ",
+        "policyFaqs": [],
+        "policy-documents": []
+      },
+      {
+        "policyTitle": "Work from Office Policy",
+        "policyTopic": "work-from-offic-policy",
+        "policyDescription": "We have compiled a list of all the resources needed for employees to continue working in an office setting in a safe and productive way. ",
+        "policyFaqs": [],
+        "policy-documents": []
+      }
+    ]
+  },
+  {
+    "title": "Employee Onboarding",
+    "category": "employee-onboarding",
+    "description": "We have compiled a list of all the necessary documents for new employees pertaining to onboarding in this section",
+    "policies": [
+      {
+        "policyTitle": "Test Policy",
+        "policyDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia.",
+        "policyFaqs": [],
+        "policyDocuments": []
+      }
+    ]
+  },
+  {
+    "title": "Legal",
+    "category": "legal",
+    "description": "Legal section consists of documents related to NDA’s, meeting minutes, employement agreements, business plans, etc",
+    "policies":[
+      {
+        "policyTitle": "Test Policy",
+        "policyDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia.",
+        "policyFaqs": [],
+        "policyDocuments": []
+      }
+    ]
+  },
+  {
+    "title": "Tax documents",
+    "category": "tax-documents",
+    "description": "Some of the topics under this section include pay stub tax calculations, RRSP match, TFSA, insurance and so on.",
+    "policies":[
+      {
+        "policyTitle": "Test Policy",
+        "policyDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia.",
+        "policyFaqs": [],
+        "policyDocuments": []
+      }
+    ]
+  }
+]

@@ -1,21 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function TopArticlesComponent(props) {
+function DocsComponent(props) {
   const { documents } = props;
-  console.log(props);
-  //const topDocuments = documents.slice(0, 2);
-  //console.log(topDocuments);
+
   return !documents ? null : (
-    <div className="policies-toparticles">
-      <h3>Top Documents</h3>
+    <div className="faq-and-docs_docs">
+      <h2>Top Documents</h2>
       {documents.map((document, index) => (
         <Link to="/" key={`${document}${index}`}>
           <div
-            className="policies-toparticles_article"
+            className="faq-and-docs_docs-doc"
           >
             <div>
-            <h2>{document.title}</h2>
+            <p className="faq-and-docs_docs-doc_title">{document.title}</p>
             {/* <p>{document.snippet}</p> */}
             <p>{document.date}</p>
             </div>
@@ -27,4 +25,4 @@ function TopArticlesComponent(props) {
   );
 }
 
-export default TopArticlesComponent;
+export default DocsComponent;
