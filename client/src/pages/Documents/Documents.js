@@ -6,7 +6,10 @@ import socialIcon from '../../Assets/images/Social_Icon.svg'
 import { Link } from 'react-router-dom';
 import arrow from '../../Assets/images/Fowardarrow_Icon.svg'
 
-const Documents = () => {
+
+
+
+function Documents() {
     return (
         <div className='data-container'>
             <div className='mini-container'>
