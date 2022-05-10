@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  right: 14px;
+  left: 6px;
 }
 .form form .searchBar img {
   width: 24px;
@@ -38,7 +38,6 @@
 .form form .header-icons {
   display: flex;
   position: relative;
-  left: 14px;
 }
 .form form .header-icons .userlogo_settings {
   margin-right: 0;
@@ -46,5 +45,5 @@
 .form form .header-icons img {
   width: 32px;
   height: 32px;
-  margin-right: 24px;
+  margin-right: 12px;
 }/*# sourceMappingURL=Navbar.css.map */

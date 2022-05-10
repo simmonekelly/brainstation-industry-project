@@ -13,8 +13,10 @@ import './Sidebar.scss'
 import homelogo from '../../Assets/images/Home_Icon.svg'
 import resorucesIcon from '../../Assets/images/Resources_Icon.svg'
 import eventsIcon from '../../Assets/images/Events_Icon.svg'
-import socialIcon from '../../Assets/images/Social_Icon.svg'
+import socialIcon from '../../Assets/images/Vector.svg'
 import contactIcon from '../../Assets/images/Contact_icon.svg'
+import logo from '../../Assets/images/Logo.svg'
+import { Link } from 'react-router-dom';
 const btnRef = React.createRef()
 const menuItem=[
     {
@@ -83,7 +85,7 @@ class Sidebar extends Component {
                    </div>   
                </div>
                <div className='logo_section'>
-               <div style={{display: this.state.isOpen ? "flex" : "flex"}} className="logo"><img src={contactIcon} alt='logo'></img></div>
+              <Link to='/'> <div style={{display: this.state.isOpen ? "flex" : "flex",}} className="logo"><img src={logo} alt='logo'></img></div></Link>
                
                </div>
                {menuItem.map((item, index)=>(

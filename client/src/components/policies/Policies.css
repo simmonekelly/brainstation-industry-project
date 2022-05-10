@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.faq-and-docs {
+  height: 100vh;
+}
+.faq-and-docs h1 {
+  padding-bottom: 40px;
+}
+.faq-and-docs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.faq-and-docs_faqs {
+  padding-bottom: 30px;
+  padding-right: 24px;
+  max-width: 693px;
+}
+.faq-and-docs_faqs-faq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: black 1px solid;
+  padding: 24px 24px 24px 0;
+}
+.faq-and-docs_faqs-faq p {
+  padding-bottom: 0;
+}
+.faq-and-docs_faqs-faq h4 {
+  padding-bottom: 0;
+}
+.faq-and-docs_faqs-faq_question, .faq-and-docs_docs-doc_title {
+  font-weight: 700;
+}
+.faq-and-docs_faqs-faq-answer {
+  padding-top: 16px;
+}
+.faq-and-docs_docs {
+  max-width: 330px;
+}
+.faq-and-docs_docs a {
+  text-decoration: none;
+  color: black;
+  padding: 16px;
+}
+.faq-and-docs_docs-doc {
+  background-color: #F5F7F8;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}/*# sourceMappingURL=Policies.css.map */

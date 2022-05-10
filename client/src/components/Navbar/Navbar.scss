@@ -10,7 +10,7 @@
         display: flex;
         align-items: center;
         position: relative;
-        right: 14px;
+        left: 6px;
         img{
             width: 24px;
             height: 24px;
@@ -42,14 +42,14 @@
     .header-icons{
         display: flex;
         position: relative;
-        left: 14px;
+        
        .userlogo_settings{
            margin-right: 0;
        }
         img{
             width: 32px;
             height: 32px;
-            margin-right: 24px;
+            margin-right: 12px;
         }
     }
 }

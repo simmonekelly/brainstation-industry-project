@@ -8,7 +8,7 @@ import {
 import MobileNavigation from '../MobileNavigation/MobileNavigation';
 import userLogo from '../../Assets/images/userlogo.png'
 import bell from '../../Assets/images/Notification_Icon.svg'
-import settings from '../../Assets/images/Settings_Icon.svg'
+import settings from '../../Assets/images/Settings_Icon_Medium.svg'
 import searchIcon from '../../Assets/images/SEarch_Icon.svg'
 
 
