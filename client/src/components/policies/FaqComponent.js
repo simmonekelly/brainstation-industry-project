@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FaPlus, FaMinus } from 'react-icons/fa';
 
 export default class FaqComponent extends Component {
   state = {
@@ -28,7 +29,7 @@ export default class FaqComponent extends Component {
           {this.state.isActive ? <p className="faq-and-docs_faqs-faq_answer">{question.answer}</p> : null}
         </div>
         <div onClick={(e) => this.toggleFaq(e)}>
-            {this.state.isActive? <p>minus</p> : <p>plus</p>}</div>
+            {this.state.isActive? <FaMinus /> : <FaPlus />}</div>
       </div>
     );
   }
