@@ -12,7 +12,6 @@ const App = () => {
     <BrowserRouter>
       <Sidebar>
         <Navbar/>
-        <hr></hr>
         <Routes>
           <Route path="/" element={<Documents />} />
           <Route path="/documents" element={<Documents />} />

@@ -1,13 +1,50 @@
 .form {
-  margin: 12px 0;
+  max-width: 1280px;
+  margin: 24px auto;
 }
 .form form {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
-.form form input {
-  width: 250px;
-  height: 40px;
-  background-color: lightgrey;
+.form form .searchBar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 14px;
+}
+.form form .searchBar img {
+  width: 24px;
+  height: 24px;
+  padding: 16px;
+  background-color: #BDCCD4;
+  border-radius: 0px 10px 10px 0px;
+  position: relative;
+  right: 10px;
+}
+.form form .searchBar input {
+  width: 876px;
+  height: 56px;
+  background-color: #F2F5F6;
+  border: none;
+  border-radius: 11px;
+}
+.form form .userlogo {
+  width: 5%;
+  background-color: #29554D;
+  border-radius: 50%;
+  padding: 5px;
+}
+.form form .header-icons {
+  display: flex;
+  position: relative;
+  left: 14px;
+}
+.form form .header-icons .userlogo_settings {
+  margin-right: 0;
+}
+.form form .header-icons img {
+  width: 32px;
+  height: 32px;
+  margin-right: 24px;
 }/*# sourceMappingURL=Navbar.css.map */
