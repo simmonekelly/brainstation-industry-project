@@ -84,7 +84,7 @@
       {
         "policyTitle": "Work from Office Policy",
         "policyTopic": "work-from-offic-policy",
-        "policyIcon": "http://localhost:8080/images/icons/Workfrom_office_Icon_Screen3.svg",
+        "policyIcon": "http://localhost:8080/images/icons/Office_Policy_Icon_Large.svg",
         "policyDescription": "We have compiled a list of all the resources needed for employees to continue working in an office setting in a safe and productive way. ",
         "policyFaqs": [],
         "policy-documents": []

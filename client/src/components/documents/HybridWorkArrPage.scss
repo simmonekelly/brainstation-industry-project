@@ -1,7 +1,45 @@
 @use '../../styles/colors-fonts' as *;
 
-.policy-document{
+.policy-document {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  ul {
+    padding-left: 50px;
+    padding-bottom: 10px;
+
+    li {
+      padding-left: 5px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+
+  &_contact {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+
+  .related-documtes {
+    &_container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    max-width: 330px;
+    background-color: $light-blue;
+    padding: 16px;
     display: flex;
-    flex-direction: column;
-    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+
+    &_title {
+      font-weight: 700;
+    }
+  }
 }
