@@ -14,7 +14,7 @@ import commentss from '../../Assets/images/Comment_Icon_Small.svg'
 function Documents() {
     return (
         <div className='data-container'>
-            <div className='mini-container'>
+            <Link to='/resources'><div className='mini-container'>
                 <div className='homepage_logo'> <img src={resourceslogo} alt='Logo'></img></div>
                 <div className='homepage_titletext'>
                    <h1>Resources</h1>
@@ -41,7 +41,7 @@ function Documents() {
                        <div className='textbox_arrow'><img src={arrow}></img></div>
                         </div></Link>
                     </div>
-            </div>
+            </div></Link>
             {/* second container start here */}
             <div className='mini-container'>
                <div className='homepage_logo'> <img src={eventsIcon} alt='Logo'></img></div>
