@@ -143,6 +143,7 @@
 }
 
 @media (min-width:1280px) {
+
     .data-container{
        max-width: 1280px;
         margin:  24px auto ;
@@ -154,8 +155,10 @@
             padding: 16px;
             margin: 0;
             .homepage_logo{
+            
                 img{
                     border-radius: 6px;
+                    
                 }
             }
             .footer_container{
@@ -171,6 +174,7 @@
                         h4{
                             margin: 0 0 16px;
                             width: 80%;
+                            line-height: 24px;
                         }
                     }
                     img{
@@ -213,6 +217,7 @@
                     h4{
                         text-align: start;
                         margin-top: 12px;
+                        line-height: 24px;
                     }
                     img{
                         width: 8.05px;
@@ -259,8 +264,10 @@
                     display: flex;
                     align-items: center;
                     .textbox_text{
+                        line-height: 24px;
                         h4{
                             width: 80%;
+                            line-height: 24px;
                         }
                     }
                     .textbox_arrow{
@@ -344,6 +351,7 @@
                     .textbox_text{
                         h4{
                             width: 80%;
+                            line-height: 24px;
                         }
                     }
                     .textbox_arrow{
@@ -394,6 +402,8 @@
                                 justify-content: space-between;
                                 h4{
                                     width: 90%;
+                                    line-height: 24px;
+                                    font-size: 16px;
                                 }
                                 img{
                                     width: 8.05px;

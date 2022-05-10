@@ -2,7 +2,7 @@ import React from 'react';
 import './Documents.css'
 import resourceslogo from '../../Assets/images/Resources_Icon.svg'
 import eventsIcon from '../../Assets/images/Events_Icon.svg'
-import socialIcon from '../../Assets/images/Social_Icon.svg'
+import socialIcon from '../../Assets/images/Social_Icon-1.svg'
 import { Link } from 'react-router-dom';
 import arrow from '../../Assets/images/Fowardarrow_Icon.svg'
 
