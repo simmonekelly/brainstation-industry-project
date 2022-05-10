@@ -1,0 +1,159 @@
+.container {
+  display: flex;
+}
+.container .sidebar_mobile {
+  display: none;
+}
+.container .logo_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .sidebar {
+  background: #F5F7F8;
+  color: #fff;
+  height: 982px;
+  width: 200px;
+  transition: all 0.5s;
+}
+.container .sidebar a {
+  border-bottom: 1px solid #DEDEDE;
+}
+.container .sidebar .top_section {
+  display: flex;
+  align-items: end;
+  padding: 20px 12px;
+  flex-direction: column;
+}
+.container .sidebar .top_section .logo {
+  font-size: 30px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+.container .sidebar .top_section .logo img {
+  width: 20%;
+  padding: 20px;
+  background-color: darkgrey;
+  border-radius: 50%;
+}
+
+main {
+  width: 100%;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.bars svg {
+  color: #29554D;
+}
+
+.logo_section {
+  margin-bottom: 64px;
+}
+
+.link {
+  display: flex;
+  color: black;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  justify-content: center;
+  margin: 24px 0 0 0;
+}
+
+.link:hover {
+  color: #000;
+  transition: all 0.5s;
+}
+
+.icon h4, .link_text h4 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 6px;
+}
+
+.icon {
+  padding-left: 6px;
+}
+
+.active-stage {
+  display: none;
+}
+
+.active .active-stage {
+  display: block;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+}
+.text-container .icon img {
+  width: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 40%;
+}
+
+.active .text-container {
+  border-left: 3px solid #A84E2F;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .link:hover {
+    color: #000;
+    transition: all 0.5s;
+  }
+
+  .active {
+    color: #000;
+  }
+
+  .active .link {
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+  }
+  .container .sidebar_mobile {
+    display: block;
+    background: grey;
+    color: #fff;
+    height: 100%;
+    width: 200px;
+    transition: all 0.5s;
+  }
+  .container .sidebar_mobile .top_section {
+    display: flex;
+    align-items: end;
+    padding: 20px 12px;
+    flex-direction: column;
+  }
+  .container .sidebar_mobile .top_section .logo {
+    font-size: 30px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .container .sidebar_mobile .top_section .logo img {
+    width: 20%;
+  }
+}/*# sourceMappingURL=Sidebar.css.map */
