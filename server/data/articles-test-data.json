@@ -1,0 +1,23 @@
+[{
+    "title": "Hybrid work arrangement at  company ",
+    "snippet": "The significant interest in more flexible forms of working, and hybrid working in particular, have created new employee expectations and desires.",
+    "date": "date",
+    "page": "copy"
+},
+{
+    "title": "Hybrid working is based on effective communication. ",
+    "snippet": "bleh",
+    "date": "date",
+    "page": {
+        "p1": "paragarph 1",
+        "p2": "paragrpah 2",
+        "p3": "paragraph 3"
+    }
+    
+},
+{
+    "title": "Health and wellness benifits for hybrid workers ",
+    "snippet": "bleh",
+    "date": "date",
+    "page": "copy"
+}]

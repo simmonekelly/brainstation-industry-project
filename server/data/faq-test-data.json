@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Do work from office schedules follow adequate social distancing within CDC guideline requirements?",
+    "answer": "All employees are instructed to maintain at least six feet distance from each other and any third parties. Employees who need to sneeze or cough should use a cloth or tissue. Do not shake hands or engage in any unnecessary physical contact with any otherindividuals at the work site."
+  },
+  {
+      "question": "Can I able to book an in office work station?",
+      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+  },
+  {
+    "question": "What steps have been taken to help ensure the safety of the staff?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+},
+{
+    "question": "How will staff members’ performance be evaluated while remote working?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+},
+{
+    "question": "What is the vaccination policy?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+},
+{
+    "question": "Are part time employees eligible for hybrid work arrangements?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+},
+{
+    "question": "Are certain positions ineligible for inclusion within hybrid work arrangements?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+},
+{
+    "question": "Are work station shifts going to have adequate social distancing within CDC guideline requirements?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+},
+{
+    "question": "Can I able to book an in office work station?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis arcu sit amet interdum lacinia. Sed malesuada ligula quis dui consequat, vestibulum euismod odio imperdiet. Nullam euismod dolor tempor leo gravida hendrerit. Fusce at libero orci. Integer dictum turpis in lorem tempus interdum elementum a eros. Integer sed interdum quam."
+}
+]

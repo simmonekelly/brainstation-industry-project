@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+.app {
+  //text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: 'Inter', san-serif;
+}
+
+body{
+  margin: none;
+}
+
+.left-nav {
+  width: 170px;
+}
+
+.mainbody {
+  width: 100%;
+  padding: 10px 30px 10px 20px
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 32px;
+  line-height: 24px;
+}
+
+h2 {
+  @extend h1;
+  font-size: 24px;
+}
+
+h3 {
+  @extend h1;
+  font-size: 16px;
+
+}
+
+h4 {
+  @extend h1;
+}
+
+p {
+  @extend h1;
+  font-size: 16px;
+}
+
