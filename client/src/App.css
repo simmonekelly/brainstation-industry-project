@@ -17,6 +17,8 @@
 
 .mainbody {
   padding: 10px 30px 10px 20px;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 h1, p, h4, h3, h2 {
