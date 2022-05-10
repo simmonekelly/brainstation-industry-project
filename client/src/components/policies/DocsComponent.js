@@ -10,7 +10,7 @@ function DocsComponent(props) {
     <div className="faq-and-docs_docs">
       <h2>Top Documents</h2>
       {documents.map((document, index) => (
-        <Link to="/" key={`${document}${index}`}>
+        <Link to="/hybrid-work-arrangements" key={`${document}${index}`}>
           <div
             className="faq-and-docs_docs-doc"
           >
